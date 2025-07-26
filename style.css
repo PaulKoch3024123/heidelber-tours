@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f8f8f8;
+  color: #222;
+}
+header {
+  background: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+footer {
+background-color: #333;
+  color: white;
+  padding: 1em;
+  height: 120px; 
+  text-align: center;
+  margin-top: auto; 
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header h1, footer p {
+  margin: 0;
+}
+header h1 a {
+  color: white;
+  text-decoration: none;  font-family: 'Parisienne', cursive;
+  font-size: 3em;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+main {
+  padding: 2em;
+}
+img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.guide-foto {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.banner {
+  background-image: url("img/banner.jpg"); 
+  background-size: cover;       
+  background-position: center;  
+  height: 300px;                
+  width: 100%;
+}
+.text-block {
+  max-width: 700px;       
+  margin: 0 auto;         
+  padding: 0 1em;         
+  line-height: 1.6;       
+}
+.container {
+  max-width: 900px;      
+  margin: 0 auto;         
+  padding: 0 1em;         
+  box-sizing: border-box; 
+}
+.team {
+  display: flex;
+  gap: 2em;              
+  justify-content: center; 
+  margin-bottom: 2em;
+}
+
+.guide {
+  flex: 1 1 300px;       
+  max-width: 400px;      
+  text-align: center;
+}
